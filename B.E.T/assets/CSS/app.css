@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:700);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body,html {
+	height: 100%;
+	font-family: "Dosis", Helvetica, Arial, sans-serif;   
+	color: #34495e;
+}
+
+article {
+	font-size: 17px;
+}
+
+strong {
+	font-size: 20px;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+.wide {
+	width:100%;
+	height: 60%;
+	background-image:url('../../assets/images/rotator_banner.jpg');
+	background-size:cover;
+	background-position: center center;
+	padding-bottom: 0 5px;
+}
+
+.esport {
+	width:100%;
+	height: 80%;
+	background-image:url('../../assets/images/esportbet.png');
+	background-size:cover;
+	background-position: center center;
+	padding-bottom: 0 5px;
+}
+
+h1 {
+	font-size: 26px;
+	margin-bottom: 25px; 
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-color: #111;
+	text-align: center;
+}
+
+.bottom {
+	margin-top: 50px;
+	color: #fff;
+	width: 100%;
+}
+
+.fa-twitter {
+	color: #4099FF;
+}
+
+.fa-facebook {
+	color: #3B5998;
+}
+
+.fa-youtube-play {
+	color: #e52d27;
+}
+
+.fa-rss {
+	color: #FF6600;
+}
+
+.fa-vine {
+	color: #00a478;
+}
+
+.fa-flickr {
+	color: #ff0084;
+}
+
+.fa-twitch {
+	color: #6441A5;
+}
+
+.fa-linkedin {
+	color: #007bb6;
+}
+
+.fa {
+	margin-top: 40px;
+	opacity: 0.7;
+	transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.fa:hover{
+	opacity: 1;
+	transition: 0,2s;
+	-webkit-transition: 1s;
+}
+
+.badgebox
+{
+	opacity: 0;
+}
+
+.badgebox + .badge
+{
+	text-indent: -999999px;
+	width: 27px;
+}
+
+.badgebox:focus + .badge
+{
+	box-shadow: inset 0px 0px 5px;
+}
+
+.badgebox:checked + .badge
+{
+	text-indent: 0;
+}
+
+
+.col-md-6 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.value {
+	border-bottom: 4px dashed #bdc3c7;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10em;
+	width: 300px; 
+	height: 100px;
+	line-height: 60px;
+	margin: 40px auto;
+	letter-spacing: -.07em;
+	text-shadow: white 2px 2px 2px;
+}
+input[type="range"] {
+	display: block;
+	-webkit-appearance: none;
+	background-color: #bdc3c7;
+	width: 300px;
+	height: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+	outline: 0;
+}
+input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: #e74c3c;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 2px solid white;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+	}​
+	input[type="range"]::-webkit-slider-thumb:hover {
+		background-color: white;
+		border: 2px solid #e74c3c;
+	}
+	input[type="range"]::-webkit-slider-thumb:active {
+		transform: scale(1.6);
+	}
